@@ -1,11 +1,11 @@
 const isPowerOfTwo = (number) => {
   if((number&1)===0)
-	    return "true";
+	    return true;
 else if(number<=0){
-	    return "false"
+	    return false;
  }
   else
-	  return "false"
+	  return false;
 };
 
 const num = parseInt(prompt("Enter a number"));
